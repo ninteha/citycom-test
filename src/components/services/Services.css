@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 74px;
+  position: static;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 6%);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo {
+  width: 103px;
+  height: 27px;
+  margin: 0 16px;
+  display: flex;
+}
+
+.search-input {
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 400;
+  padding: 3%;
+  padding-right: 180%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.sidebar-buttons-container {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  min-width: 240px;
+  box-shadow: none;
+  text-align: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  color: #3288ff;
+}
+
+.sidebar-buttons {
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  min-width: 240px;
+  box-shadow: none;
+  text-align: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  color: #3288ff;
+  background-color: #f0f6ff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0 13px;
+}
+
+.main-menu-wrapper {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.home-pic {
+  top: 7%;
+  right: 0;
+  width: 131.31px;
+  height: 100.26px;
+  position: absolute;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.span-mod {
+  width: 34px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 25px;
+  background-color: #9ca9bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-img {
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.inner-span {
+  border: 1px solid #d1d5db;
+  border-radius: 13px;
+  width: 92px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding: 2px;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.rating {
+  text-align: center;
+  display: flex;
+}
+
+.list-wrapper {
+  margin-left: 16px;
+  border-bottom: 1px solid rgb(229, 231, 235);
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
